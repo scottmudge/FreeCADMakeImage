@@ -94,7 +94,7 @@ requirements:
 #     - FreeCADCmd --version
 
 about:
-  home: https://github.com/ScottMudge/FreeCAD
+  home: https://github.com/scottmudge/FreeCAD
   license: LGPL2
   license_family: LGPL
   license_file: LICENSE

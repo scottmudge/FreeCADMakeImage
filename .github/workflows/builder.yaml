@@ -28,12 +28,12 @@ jobs:
       - name: Checkout build scripts
         uses: actions/checkout@v3
         with:
-          repository: ScottMudge/FreeCADMakeImage
+          repository: scottmudge/FreeCADMakeImage
           submodules: true
       - name: Checkout source
         uses: actions/checkout@v3
         with:
-          repository: ScottMudge/FreeCAD
+          repository: scottmudge/FreeCAD
           ref: ${{ inputs.ref }}
           path: ./repo
           # submodules: true

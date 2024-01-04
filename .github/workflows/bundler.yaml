@@ -27,7 +27,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          repository: ScottMudge/FreeCADMakeImage
+          repository: scottmudge/FreeCADMakeImage
           submodules: true
 
       - name: Conda environment creation and activation
