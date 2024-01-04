@@ -17,7 +17,7 @@ jobs:
     - name: Checkout build scripts
       uses: actions/checkout@v3
       with:
-        repository: realthunder/FreeCADMakeImage
+        repository: ScottMudge/FreeCADMakeImage
     - name: setup build tag
       run: |
         sed -i 's|source-branch: LinkDaily|source-tag: ${{ inputs.ref }}|' snap/snapcraft.yaml

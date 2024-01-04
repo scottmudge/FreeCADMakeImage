@@ -145,7 +145,7 @@ parts:
 
   freecad:
     plugin: cmake
-    source: https://github.com/realthunder/FreeCAD.git
+    source: https://github.com/ScottMudge/FreeCAD.git
     source-branch: LinkDaily
     cmake-parameters:
       - -DCMAKE_INSTALL_PREFIX=/usr
@@ -266,7 +266,7 @@ parts:
   branding:
     after: [freecad]
     plugin: nil
-    source: https://github.com/realthunder/fcad-branding.git
+    source: https://github.com/ScottMudge/fcad-branding.git
     override-prime: |
       export FMK_BUILD_DATE=$(date +%Y%m%d)
       export FMK_DESKTOP_ID_POSTFIX=".Snap"
